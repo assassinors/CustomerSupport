@@ -40,4 +40,7 @@ public class Ticket {
     public void addAttachment(Attachment attachment){
         attachments.put(attachment.getName(),attachment);
     }
+    public int getNumberOfAttachments(){
+        return this.attachments.size();
+    }
 }
